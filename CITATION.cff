@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Target-Information Dependency Auditor"
+version: 0.1.1
+type: software
+authors:
+  - family-names: Gong
+    given-names: Boji
+license: MIT
+repository-code: "https://github.com/gongboji-cyber/target-information-dependency-auditor"
