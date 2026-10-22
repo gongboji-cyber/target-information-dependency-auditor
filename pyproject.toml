@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "target-info-audit"
+version = "0.1.1"
+description = "Target-information dependency auditor for promptable medical image segmentation pipelines"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["numpy"]
+
+[project.scripts]
+target-info-audit = "target_info_audit.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["target_info_audit*"]
