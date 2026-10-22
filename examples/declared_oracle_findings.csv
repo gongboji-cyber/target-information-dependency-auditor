@@ -1,0 +1,2 @@
+pipeline_id,status,channel,kind,authorization,evidence_type,location,message,confidence
+synthetic:declared-oracle,applicable,prompting,label_prompt,declared,executed_counterfactual,counterfactual,Declared prompt changed under label substitution; no undeclared preprocessing change.,executed
