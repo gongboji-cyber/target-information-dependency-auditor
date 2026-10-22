@@ -1,0 +1,21 @@
+[
+  {
+    "pipeline_id": "synthetic:declared-oracle",
+    "status": "applicable",
+    "declared_budget": {
+      "declared_prompt": true
+    },
+    "findings": [
+      {
+        "channel": "prompting",
+        "kind": "label_prompt",
+        "authorization": "declared",
+        "evidence_type": "executed_counterfactual",
+        "location": "counterfactual",
+        "message": "Declared prompt changed under label substitution; no undeclared preprocessing change.",
+        "confidence": "executed"
+      }
+    ],
+    "manifest": {}
+  }
+]
